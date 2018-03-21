@@ -187,7 +187,7 @@
 
                 switch (dialog){
                     case 'file_show':
-                        self.dialogs.view.file = data;
+                        self.dialogs.view.file = data.id;
                         setTimeout(()=>{
                             self.dialogs.view.show = true;
                         },500);
